@@ -12,6 +12,11 @@ body {
     margin: 0 auto;
     font-size: 200%;
     text-align: center;
+
+ .gradient-text {
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #a {
     color: #c80003;
