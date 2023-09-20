@@ -47,30 +47,22 @@
         <span><a href="#">Python</a></span>,
         <span><a href="#">SQL</a></span>,
         <span><a href="#">Visual Basic</a></span></br></br>
- <script>
-    function displayTime() {
-      var currentTime = new Date();
-      var hours = currentTime.getHours();
-      var minutes = currentTime.getMinutes();
-      var seconds = currentTime.getSeconds();
-      
-      // Add leading zeros if necessary
-      hours = (hours < 10 ? "0" : "") + hours;
-      minutes = (minutes < 10 ? "0" : "") + minutes;
-      seconds = (seconds < 10 ? "0" : "") + seconds;
-      
-      // Create a string with the current time
-      var timeString = hours + ":" + minutes + ":" + seconds;
-      
-      // Display the time on the webpage
-      document.getElementById("current-time").innerHTML = timeString;
-    }
-    
-    // Call the displayTime function every second
-    setInterval(displayTime, 1000);
-  </script>
+ 
             <span id="a">root@LoopSec</span>: <span id="b">~$ sh ~/Desktop/myself/time.sh</span></br>
-                   <p>Current time: </p>   <p id="current-time"></p>
+                <!DOCTYPE html>
+
+<head>
+  <script>
+    function displayCurrentTime() {
+      var currentTime = new Date().toLocaleTimeString();
+      document.getElementById("time").innerHTML = "Current time: " + currentTime;
+    }
+  </script>
+</head>
+<body onload="displayCurrentTime()">
+  <div id="time"></div>
+</body>
+
             
         <span id="a">root@LoopSec</span>: <span id="b">~$ sh ~/Desktop/myself/LoopSec.sh</span></br>
         <code><span class="ascii">
