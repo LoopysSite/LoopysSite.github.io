@@ -68,7 +68,7 @@ li a:hover {
 .ascii{
   color: white; 
   background: linear-gradient(to right,  #c80003,
-                    #B21B45, #771A66, #3B1988,#4d6b8c);
+                   #4d6b8c);
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
   display:block;
