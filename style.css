@@ -36,19 +36,14 @@ i{
     50% { opacity: 0; }
 }
 .button {
-    background-color: rgb(25, 25, 25);
-    border: 2px solid #555555;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
-    font-size: 100%;
-    margin: 4px 2px;
-    cursor: pointer;
-    position: fixed;
-    left: 45.5%;
-    top: 70%;
+  background-color: #c80003;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 @media only screen
 and (min-device-width : 320px)
